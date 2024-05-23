@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.app {
+    background: #014E56;
+
+}
+nav { 
+    padding-top: 10px; 
+    display: flex; 
+    justify-content: space-between; 
+} 
+ 
+nav ul{ 
+    list-style-type: none; 
+    display: flex; 
+    gap: 40px; 
+} 
+nav ul li a { 
+    text-decoration: none; 
+    color:white; 
+}
+ 
+nav ul button {
+    
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+   background-color: #014E56;
+}
+
+header {
+    padding-top: 75px;
+    color: white ;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+header p {
+    font-family: Livvic;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+
+}
+
+header h1 {
+    font-family: Livvic;
+font-size: 64px;
+font-weight: 700;
+line-height: 100px;
+text-align: left;
+
+}
+
+.r1-text {
+    padding-top: 55px;
+    text-align: center;
+}
+
+.cards {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.card h4 {
+    padding-top: 10px;
+    color: #79C8C7;
+}
+
+.row-1 {
+    height: 500px;
+    color: white;
+}
+.main {
+    width: 100%;
+    background: #004047;
+}
+.card {
+    background: #012F34;
+    width: 350px;
+    height: 245px;
+    padding-top: 40px;
+
+}
+
+.img-1 {
+    position: absolute;
+    left: 220px;
+    top: 613px;
+}
+.img-2 {
+    position: absolute;
+    left: 735px;
+    top: 613px;
+}
+.img-3 {
+    position: absolute;
+    left: 1240px;
+    top: 613px;
+}
+
+.row-2 {
+    background: #012F34;
+    height: 200px;
+}
+
+.r2-text {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.r2-imgs {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.row-3 {
+    display: flex;
+    height: 150px;
+    padding-top: 55px;
+    justify-content: space-around;
+    gap: 720px;
+    background: #F67E7E;
+
+}
+
+.row-3 button {
+    border: 1px solid black;
+    width: 153px;
+height: 35px;
+left: 764px;
+gap: 0px;
+opacity: 0px;
+color: black;
+background-color: #F67E7E;
+border-radius: 26px;
+
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 900px;
+    background: #002529;
+
+}
+
+.logos {
+    padding-top: 10px;
+    color: white;
+    gap: 50px;
+}
+.logo- {
+    padding-top: 10px;
+}
+
+@media (max-width: 769px) {
+    nav {
+        width: 600px;
+    }
+
+    header {
+        width: 600px;
+    }
+
+    
+
+    
+
+    .row-2 {
+        width: 689px;
+    }
+
+    .row-2  {
+        width: 445px;
+        height: 32px;
+        top: 656px;
+        left: 162px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        color: white;
+    }
+
+    
+
+    
+
+    
+
+    .row-3 img {
+        width: 103px;
+        height: 17px;
+        top: 1095px;
+        left: 39px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+    .row-3 {
+        gap: 40px;
+    }
+
+    
+
+    
+    .row_4 {
+        gap: 84px;
+    }
+
+    footer {
+        width: 689px;
+
+    }
+}
+
+@media (max-width:377) {
+    nav {
+        width: 377px;
+    }
+    header {
+        width: 377px;
+    }
+    .row-1 {
+        width: 445px;
+        height: 32px;
+        top: 656px;
+        left: 162px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        color: white;
+    }
+}
